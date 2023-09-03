@@ -1,0 +1,58 @@
+Command line: C:\QuakeDev\quakespasm-sdl12.exe
+Found SDL version 1.2.16
+Detected 20 CPUs.
+Initializing QuakeSpasm v0.95.1
+Host_Init
+Playing registered version.
+Console initialized.
+UDP Initialized
+WIPX_OpenSocket: Address family not supported by protocol family
+WIPX_Init: Unable to open control socket, IPX disabled
+Server using protocol 666 (FitzQuake)
+Exe: 20:55:25 Nov  4 2022
+256.0 megabyte heap
+Video mode 800x600x32 60Hz (24-bit z-buffer, 0x FSAA) initialized
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: NVIDIA GeForce RTX 3070 Ti Laptop GPU/PCIe/SSE2
+GL_VERSION: 4.6.0 NVIDIA 536.45
+FOUND: ARB_vertex_buffer_object
+FOUND: ARB_multitexture
+GL_MAX_TEXTURE_UNITS: 4
+FOUND: ARB_texture_env_combine
+FOUND: ARB_texture_env_add
+FOUND: SDL_GL_SWAP_CONTROL
+FOUND: EXT_texture_filter_anisotropic
+FOUND: ARB_texture_non_power_of_two
+FOUND: GLSL
+FOUND: glGenerateMipmap
+
+Sound Initialization
+SDL audio spec  : 44100 Hz, 1024 samples, 2 channels
+SDL audio driver: dsound, 65536 bytes buffer
+Audio: 16 bit, stereo, 44100 Hz
+SDL detected 0 CD-ROM drives
+
+Language initialization
+Couldn't load 'localization/loc_english.txt'
+from 'C:\QuakeDev'
+
+========= Quake Initialized =========
+
+execing quake.rc
+execing default.cfg
+couldn't exec config.cfg
+couldn't exec autoexec.cfg
+3 demo(s) in loop
+Playing demo from demo1.dem.
+
+
+
+the Necropolis
+Using protocol 15
+Couldn't find a cdrip for track 2
+You got the shells
+You got the Grenade Launcher
+You receive 25 health
+You get 2 rockets  
+You got the rockets
+Shutting down SDL sound
