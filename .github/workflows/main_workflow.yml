@@ -12,8 +12,12 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Archive data
-      uses: actions/upload-artifact@v3
+    - name: Add to release
+      uses: svenstaro/upload-release-action@v2
       with:
-        name: QuakeDev
-        path: ./
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./
+        asset_name: QuakeDev
+        tag: ${{ github.ref }}
+        overwrite: true
+        body: "Michael's Super Cool Release"
